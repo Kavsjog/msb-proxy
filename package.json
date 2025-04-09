@@ -1,0 +1,18 @@
+{
+  "name": "msb-proxy",
+  "version": "1.0.0",
+  "description": "Proxy för MSB:s översvämningsdata",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.3.6",
+    "xml2js": "^0.4.23",
+    "cors": "^2.8.5"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
